@@ -13,8 +13,8 @@ node-scss-glob is a lightweight, no dependency library that generates scss impor
 ### OPTIONS:
 |Arguement|Input                |Description                                                                                           |
 |---------|---------------------|------------------------------------------------------------------------------------------------------|
-|-o       |FILE                 |selects output file of globbed imports.                                                               |
-|-d       |[DIRECTORY...]       |selects root directory to recursivly glob (brackets are required around the array, and not symbolic). |
-|-e       |[FILE...]            |selects files to exclude from globbing (brackets are required around the array, and not symbolic).    |
-|-E       |[DIRECTORY...]       |selects folders to exclude from globbing (brackets are required around the array, and not symbolic).  |
-|-a       |No input,just a flag.|option to add imports onto previously globbed.                                                        |
+|-o       |FILE                 |Selects output file of globbed imports.                                                               |
+|-d       |[DIRECTORY...]       |Selects root directory to recursivly glob (brackets are required around the array, and not symbolic). |
+|-e       |[FILE...]            |Selects files to exclude from globbing (brackets are required around the array, and not symbolic).    |
+|-E       |[DIRECTORY...]       |Selects folders to exclude from globbing (brackets are required around the array, and not symbolic).  |
+|-a       |No input,just a flag.|Option to add imports onto previously globbed.                                                        |

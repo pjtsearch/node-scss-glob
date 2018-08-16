@@ -7,3 +7,19 @@
 
 node-scss-glob is a lightweight, no dependency library that generates scss imports for entire folders from the command line.
  
+ `
+USAGE:
+    node-scss-glob -o=<file> [-d=<directory> -I=<directory> -e=<file> -E=<directory> -a]
+
+OPTIONS:
+  -o=FILE
+      selects output file of globbed imports.
+  -d=[DIRECTORY...]
+      selects root directory to recursivly glob (brackets are required around the array, and not symbolic).
+  -e=[FILE...]
+      selects files to exclude from globbing (brackets are required around the array, and not symbolic).
+  -E=[DIRECTORY...]
+      selects folders to exclude from globbing (brackets are required around the array, and not symbolic).
+  -a
+      option to add imports onto previously globbed.
+`

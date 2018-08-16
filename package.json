@@ -1,0 +1,19 @@
+{
+  "name": "node-scss-glob",
+  "version": "1.0.0",
+  "description": "node-scss-glob generates scss imports for entire folders.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": "github.com:pjtsearch/node-scss-glob",
+  "keywords": [
+    "scss-glob",
+    "glob",
+    "node-scss-glob"
+  ],
+  "bin": {
+    "node-scss-glob": "./index.js"
+  },
+  "author": "pjtsearch",
+  "license": "GPL v3.0"
+}

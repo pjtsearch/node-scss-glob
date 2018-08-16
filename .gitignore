@@ -60,5 +60,8 @@ typings/
 # next.js build output
 .next
 
+#directory
+.directory
+
 #unminified import.js
 libs/import.js 

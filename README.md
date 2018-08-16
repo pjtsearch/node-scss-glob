@@ -11,6 +11,7 @@ node-scss-glob is a lightweight, no dependency library that generates scss impor
     node-scss-glob -o=<file> [-d=<directory> -I=<directory> -e=<file> -E=<directory> -a]
 
 ### OPTIONS:
+<pre>
   -o=FILE
       selects output file of globbed imports.
   -d=[DIRECTORY...]
@@ -21,3 +22,4 @@ node-scss-glob is a lightweight, no dependency library that generates scss impor
       selects folders to exclude from globbing (brackets are required around the array, and not symbolic).
   -a
       option to add imports onto previously globbed.
+</pre>

@@ -8,9 +8,8 @@
 node-scss-glob is a lightweight, no dependency library that generates scss imports for entire folders from the command line.
  
 ### USAGE:
-````bash
     node-scss-glob -o=<file> [-d=<directory> -I=<directory> -e=<file> -E=<directory> -a]
-````
+
 ### OPTIONS:
 <pre>
   -o=FILE
